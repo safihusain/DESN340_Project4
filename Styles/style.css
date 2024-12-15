@@ -1,0 +1,674 @@
+/* ---- FONTS ---- */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* ---- TYPOGRAPHY ---- */
+
+.navigation {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 38px;
+    color: black;
+}
+
+.h1-reverse {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 30px;
+
+}
+
+.h2-reverse{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 30px;
+    color: white;
+}
+
+h3 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    color: black;
+ }
+
+ .h3-reverse{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: bold;
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
+}
+ 
+
+h4 {
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: bold;
+    color: white;
+    margin: 80px 0px 0px 0px;
+
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900px;
+    font-style: bold;
+    font-size: 24px;
+    color: #113086;
+    margin-top: 5px;
+}
+
+.h5-black {
+    font-family: "Inter", sans-serif;
+    font-weight: 900px;
+    font-style: bold;
+    font-size: 24px;
+    color: black;
+}
+
+h6 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+}
+
+
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+
+.p-reverse {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+
+.p-blue {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 500;
+    color: #113086;
+}
+
+
+.footer{
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+/* ---- BUTTONS ---- */
+
+.button-donate {
+    /* Size and Padding */
+    width: auto;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+
+    /* Colors */
+    background-color: #113086;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.button-learnmore{
+    /* Size and Padding */
+    width: 170px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+  
+    /* Colors */
+    background-color: #113086; 
+    color: white;
+    border: none; 
+    border-radius: 0px; 
+    text-align: center; 
+
+}
+
+.button-black{
+    /* Size and Padding */
+    width: 170px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+  
+    /* Colors */
+    background-color: black; 
+    color: white;
+    border: none; 
+    border-radius: 0px; 
+    text-align: center; 
+
+}
+
+.button-filters {
+      display: inline-block;
+      width: 200px;
+      padding: 10px 20px; /* Adjust for size */
+      font-size: 16px; /* Adjust for text size */
+      color: black; /* Text color */
+      background-color: white; /* Background color */
+      border: 2px solid black; /* Border color and thickness */
+      border-radius: 5px; /* Adjust to match the rounded corners */
+      text-align: center; /* Center the text */
+}
+
+
+/* ---- LOGO & SEARCH ---- */
+
+.logo{
+	height: 75px;
+	max-height: 75px;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	width: 100%;
+   }
+
+.search-bar{
+	height:40px;
+	padding: 20px 0 0 20px;
+}
+
+.logosearch{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px 20px 0 20px;
+	position: relative;
+}
+
+.search-bar {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 40px;
+}
+
+/* ---- NAVIGATION ---- */
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* ---- HERO ---- */
+
+.hero-nav{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	margin: 0;
+}
+
+.hero-container{
+  	background-color: #000000; 
+  	width: 600px;
+  	height: 530px;
+  	box-sizing: border-box; 
+  	padding: 100px 100px; 
+  	word-wrap: break-word; 
+	overflow-wrap: break-word; 
+	white-space: normal; 
+}
+
+.hero-aboutus-container{
+    background-color: #000000; 
+    width: 700px;
+    height: 530px;
+    box-sizing: border-box; 
+    padding: 10px 80px 10px 80px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal;
+    margin-top: 0px;
+}
+
+.hero-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.hero-img-flex{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	margin: 0;
+}
+
+.hero-img-flex > div:last-child {
+    flex: 1;
+    height: 530px;
+}
+
+/* ---- PADDING ---- */
+
+.padding-hero{
+	padding: 0px 0px 5px 0px;
+}
+
+.padding-calltoaction{
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---- PADDING ---- */
+.margin{
+    margin: 0px 80px 0px 80px;
+}
+
+/* ---- RESET ---- */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* MISSION STATEMENT SECTION */
+.mission-statement {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.mission-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.mission-content {
+    flex: 1;
+    padding: 4rem;
+    max-width: 700px;
+}
+
+.mission-image {
+    flex: 1;
+    width: 50%;
+}
+
+.mission-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mission-content h1 {
+    margin-bottom: 1rem;
+}
+
+.mission-content h4 {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Reverse layout for alternating sections */
+.mission-item.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .mission-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mission-item.reverse {
+        flex-direction: column;
+    }
+
+    .mission-content {
+        order: -1; /* Makes content appear above image on mobile */
+        padding: 2rem 1rem;
+        max-width: 100%;
+    }
+
+    .mission-image {
+        width: 100%;
+    }
+}
+
+/* Desktop/Mobile visibility classes */
+.mobile-only {
+    display: none !important;
+}
+
+.desktop-only {
+    display: block;
+}
+
+.h3-link {
+    text-decoration: none;
+    display: none;  /* Hide by default for desktop */
+    width: 100%;
+}
+
+/* Mobile styles for hero section */
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .hero-img-flex {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        background: none;
+    }
+
+    .hero-container h1 {
+        color: black;
+        margin: 2rem;
+    }
+
+    .hero-image-container {
+        width: 100%;
+        aspect-ratio: 1/1;
+        height: auto;
+    }
+
+    .h3-link {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-container .h3-link h3 {
+        margin: 0;
+        padding: 2rem;
+        background-color: black;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        cursor: pointer;
+        color: white;
+    }
+
+
+    /* Add right arrow */
+    .hero-container .h3-link h3::after {
+        content: "→";
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.h3-link {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+/* Mobile hero specific styles */
+.mobile-hero {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-hero {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-hero h1 {
+        color: black;
+        margin: 2rem;
+        font-size: 38px;
+    }
+
+    .mobile-hero .hero-image-container {
+        width: 100%;
+        aspect-ratio: 1/1;
+        margin: 0;
+    }
+
+    .mobile-hero .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .mobile-hero .h3-link {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        background: black;
+        margin: 0;
+    }
+
+    .mobile-hero .h3-link h3 {
+        margin: 0;
+        padding: 2rem;
+        color: white;
+        position: relative;
+        font-size: 24px;
+    }
+
+    .mobile-hero .h3-link h3::after {
+        content: "→";
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* Mobile Navigation Styles */
+
+.nav-toggle {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.burger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .logo {
+        padding: 25px 0 20px 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logosearch {
+        position: relative;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 35px;
+        transform: none;
+    }
+
+    .nav-container {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: #000000;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 80px;
+        transition: left 0.3s ease;
+        z-index: 999;
+    }
+
+    /* CSS-only menu toggle */
+    .nav-toggle:checked ~ .nav-container {
+        left: 0;
+    }
+
+    /* Burger menu animation when checked */
+    .nav-toggle:checked ~ .burger-menu span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle:checked ~ .burger-menu span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle:checked ~ .burger-menu span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .navigation {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .button-donate {
+        margin-top: 20px;
+    }
+}
+
+    /* FOOTER */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-height: 10vh;
+    height: 486px;
+    width: 100%;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
