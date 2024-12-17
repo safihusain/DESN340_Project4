@@ -19,7 +19,9 @@
 	<header> 
 		<nav class="hero-nav"> <!-- LOGO -->
 			<div class="logo logosearch">
-				<img src="Images/BlackBikeEdmontonLogo.svg">
+				<a href="index.html">
+					<img src="Images/BlackBikeEdmontonLogo.svg">
+				</a>
 				<img class="search-bar" src="Images/search-bar.png">
 			</div>
 			<input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -106,96 +108,108 @@
 		</div>
 	</section>
 
-	<section> <!--BLOG-->
-		<div>
-			<h1>Latest Blog Posts</h1>
-		</div>
-		<div class="padding-calltoaction"> <!-- Latest Blog Posts Contents Begins -->
-			<div> <!-- 1st Blog Post -->
-				<img src="Images/Firstblog.png">
-				<h5>Bike Edmonton Cycling Caps!</h5>
-				<p>Don't miss your chance to show your support for Bike Edmonton and amplify your cycling style with a limited edition Bike Edmonton cycling cap. Available now until November 15th for order on our webstore.</p>
-				<br>
-				<p class="p-blue">Read More</p>
-				<p style="color: grey;">Oct 26, 2024</p>
+	<section class="blog-section"> <!--BLOG-->
+		<h1>Latest Blog Posts</h1>
+		<div class="blog-grid"> <!-- Latest Blog Posts Contents Begins -->
+			<div class="blog-post"> <!-- 1st Blog Post -->
+				<img src="Images/Firstblog.png" alt="Cyclist in orange jersey">
+				<h2 class="blog-title">Bike Edmonton Cycling Caps!</h2>
+				<p class="blog-excerpt">Don't miss your chance to show your support for Bike Edmonton and amplify your cycling style with a limited edition Bike Edmonton cycling cap. Available now until November 15th for order on our webstore.</p>
+				<div class="blog-footer">
+					<a href="#" class="read-more">Read More →</a>
+					<span class="blog-date">Oct 26, 2024</span>
+				</div>
 			</div>
-			<div> <!-- 2nd Blog Post -->
-				<img src="Images/SecondBlog.png">
-				<h5>Our Annual General Meeting</h5>
-				<p>It has been a year of transition for Bike Edmonton, and we are so grateful for the support of all our members. Last winter you responded to our appeal, and raised more than $30,000 to help keep Bike Edmonton alive and well.</p>
-				<br>
-				<p class="p-blue">Read More</p>
-				<p style="color: grey;">Oct 22, 2024</p>
+			<div class="blog-post"> <!-- 2nd Blog Post -->
+				<img src="Images/SecondBlog.png" alt="People in a meeting">
+				<h2 class="blog-title">Bike Edmonton's Annual General Meeting</h2>
+				<p class="blog-excerpt">It has been a year of transition for Bike Edmonton, and we are so grateful for the support of all our members. Last winter you responded to our appeal, and raised more than $30,000 to help keep Bike Edmonton alive and well.</p>
+				<div class="blog-footer">
+					<a href="#" class="read-more">Read More →</a>
+					<span class="blog-date">Oct 22, 2024</span>
+				</div>
 			</div>
-			<div> <!-- 3rd Blog Post -->
-				<img src="Images/ThirdBlog.png">
-				<h5>Our South Shop is Closing</h5>
-				<p>Our South Community Bike Workshop will be closing permanently at the end of the day on Sunday June 16th. The shop was consistently bustling, but the building changed hands last year and its new owners were unwilling to sign a new lease without a substantial rent.</p>
-				<br>
-				<p class="p-blue">Read More</p>
-				<p style="color: grey;">Jun 13, 2024</p>
+			<div class="blog-post"> <!-- 3rd Blog Post -->
+				<img src="Images/ThirdBlog.png" alt="Bike wheels">
+				<h2 class="blog-title">Our South Shop is Closing</h2>
+				<p class="blog-excerpt">Our South Community Bike Workshop will be closing permanently at the end of the day on Sunday June 16th. The shop was consistently bustling, but the building changed hands last year and its new owners were unwilling to sign a new lease without a substantial rent.</p>
+				<div class="blog-footer">
+					<a href="#" class="read-more">Read More →</a>
+					<span class="blog-date">Jun 13, 2024</span>
+				</div>
 			</div>
 		</div>  
-		<!-- Latest Blog Posts Contents Ends -->
 	</section>
 
-	<section> <!-- Land Acknowledgement -->
-		<div>
-			<div>
-				<h1 class="h1-reverse">Land Acknowledgment</h1>
-				<h2 class="h2-reverse">Our vision is a city where cycling is safe, widespread, and accessible to people of all comfort levels.</h2>
-				<h3 class="h3-reverse">Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations. possible for us to keep doing this work!</h3>
-			</div>
-			<div>
-				<img src="Images/LandImage.png">
-			</div>
+	<section class="land-acknowledgement"> <!-- Land Acknowledgement -->
+		<div class="land-content">
+			<h1 class="h1-reverse">Land Acknowledgment</h1>
+			<h2 class="h2-reverse">Our vision is a city where cycling is safe, widespread, and accessible to people of all comfort levels.</h2>
+			<h3 class="h3-reverse">Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations.</h3>
+		</div>
+		<div class="land-image">
+			<img src="Images/LandImage.png" alt="Cyclists riding at sunset">
 		</div>
 	</section>
 
 	<!-- FOOTER -->
 
 	<footer class="footer-container">
-		 <!-- Logo -->
-		<div>
-			<img src="Images/Whitelogo.png">
-		</div>
-		 <!-- Links -->
-		<div>
-			<nav>
-                <ul>
-                    <li><a class="footer" href="index.html">Home</a></li>
-                    <li><a class="footer" href="aboutus.html">About Us</a></li>
-                    <li><a class="footer" href="ourbikes.html">Our Bikes</a></li>
-                    <li><a class="footer" href="ourworkshopsservices.html">Services</a></li>
-                    <li><a class="footer" href="#">Learn More</a></li>
-                    <li><a class="footer" href="#">Join Us</a></li>
-                    <li><a class="footer" href="#">Blog</a></li>
-                    <li><a class="footer" href="#">FAQs</a></li>
-                </ul>
-            </nav>
-		</div>
-		 <!-- Contact US -->
-		 <div>
-		 	<h6>Contact Us</h6>
-		 	<li><img src="Images/locationicon.png"> <a class="footer">10612 105 Ave NW Edmonton, AB T5H 0L2</a></li>
-		 	<li><img src="Images/emailicon.png"> <a class="footer">infor@bikeedmonton.ca</a></li>
-		 	<li><img src="Images/phoneicon.png"> <a class="footer">(780) 433-2453</a></li>
-		 	<img src="Images/contactpanelicons.png">
-		 </div>
-		  <!-- Sign Up -->
-		 <div>
-		 	<form>
-		 		<h6>Sign Up for Our Newsletter</h6>
-		 		    <label class="form-label reverse"></label>
-                    <input type="text" name="Email" class="form-field">
-                    <input type="submit" value="Submit" class="form-button">
-		 	</form>
-		 </div>
+		<div class="footer-content">
+			<!-- Logo -->
+			<div class="footer-logo">
+				<img src="Images/Whitelogo.png" alt="Bike Edmonton Logo">
+			</div>
 
+			<!-- Links -->
+			<div class="footer-links">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="ourbikes.html">Our Bikes</a></li>
+						<li><a href="ourworkshopsservices.html">Services</a></li>
+						<li><a href="#">Learn More</a></li>
+						<li><a href="#">Join Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQs</a></li>
+					</ul>
+				</nav>
+			</div>
 
+			<!-- Contact Us -->
+			<div class="footer-contact">
+				<h2>Contact Us</h2>
+				<ul>
+					<li>
+						<img src="Images/locationicon.png" alt="Location">
+						<span>10612 105 Ave NW Edmonton, AB T5H 0L2</span>
+					</li>
+					<li>
+						<img src="Images/emailicon.png" alt="Email">
+						<span>info@bikeedmonton.ca</span>
+					</li>
+					<li>
+						<img src="Images/phoneicon.png" alt="Phone">
+						<span>(780) 433-2453</span>
+					</li>
+				</ul>
+				<div class="social-icons">
+					<img src="Images/contactpanelicons.png" alt="Social Media Icons">
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<div class="footer-newsletter">
+				<h2>Sign Up for Newsletter!</h2>
+				<form>
+					<input type="email" placeholder="Enter your email" class="newsletter-input">
+					<button type="submit" class="newsletter-button">Sign Up</button>
+				</form>
+			</div>
+		</div>
 	</footer>
 
-	<script src="script.js"></script>
 </body>
 </html>
 
