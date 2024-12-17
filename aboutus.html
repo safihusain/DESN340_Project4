@@ -19,7 +19,9 @@
 	<header> 
 		<nav class="hero-nav"> <!-- LOGO -->
 			<div class="logo logosearch">
-				<img src="Images/BlackBikeEdmontonLogo.svg">
+				<a href="index.html">
+					<img src="Images/BlackBikeEdmontonLogo.svg">
+				</a>
 				<img class="search-bar" src="Images/search-bar.png">
 			</div>
 			<input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -42,93 +44,119 @@
 			</div>
 			
 			<!-- HERO -->
-		<section>
-			<div class="hero-aboutus-container">
-				<h4>Become a Bike Edmonton Member</h4>
-				<p class="p-reverse">Buying a membership is a great way to support us. Your membership fee provides Bike Edmonton with stable, predictable funding to run and expand our service</p>
+		<section class="hero-section">
+			<div class="hero-content">
+				<h1 class="hero-title">Become a Bike Edmonton Member</h1>
+				<p class="hero-text">Buying a membership is a great way to support us. Your membership fee provides Bike Edmonton with stable, predictable funding to run and expand our service</p>
 			</div>
-				<div><img src="Images/memberbanner.png"></div>
+			<div class="hero-image">
+				<img src="Images/memberbanner.png" alt="Cyclist silhouette at sunset">
+			</div>
 		</section>
 
 			<!-- MEMBER DISCOUNT -->
-		<section>
-			<div>
-				<div><img src="Images/orangebike.png"></div>
-				<h5 class="h5-black">Membership Discount</h5>
-				<p>Our regular individual membership is $35/year, but you can become a member for just $15 from now until the end of June if you sign up in person</p>
-				<button class="button-black">SIGN UP</button>
+		<section class="member-discount">
+			<div class="member-discount-container">
+				<div class="member-discount-image">
+					<img src="Images/orangebike.png" alt="Orange and blue bike">
+				</div>
+				<div class="member-discount-content">
+					<h2>Membership Discount</h2>
+					<p>Our regular individual membership is $35/year, but you can become a member for just $15 from now until the end of June if you sign up in person</p>
+					<button class="button-black">SIGN UP</button>
+				</div>
 			</div>
 		</section>
 			<!-- CHECK MEMBER STATUS -->
-		<section>
-			<div>
-				<h2> Check Membership Status</h2>
-				<button class="button-black"> CHECK STATUS</button>
+		<section class="member-status">
+			<div class="member-status-container">
+				<h2>Check Membership Status</h2>
+				<button class="button-black">CHECK STATUS</button>
 			</div>
 		</section>
 
 			<!-- ABOUT MEMBERS -->
-		<section>
-			<div> <img src="Images/aboutusbike.png"></div>
-			<div>
-				<h6>Your membership also adds your strength to the collective voice of bike riders everywhere. </h6>
-				<p class="p-reverse">As Edmonton and other cities face the challenge of building infrastructure that is cost-effective, accesible, good for the environment, and good for our health and safety.</p>
+		<section class="about-members">
+			<div class="about-members-image">
+				<img src="Images/aboutusbike.png" alt="Bike under bridge">
 			</div>
-			<div>
-				<h6>Other membership benefits include:<h6>
-				<div>
-				<ul class="p-reverse">
-                    <li><a>Discounts at businesses and events across the city.</a></li>
-                    <li><a>Discounts on shop fees at both of our community bike workshops.</a></li>
-                    <li><a>Discounts on bike repair courses and other workshops.</a></li>
-                </ul>
+			<div class="about-members-overlay">
+				<div class="about-members-content">
+					<div class="main-text">
+						<h2>Your membership also adds your strength to the collective voice of bike riders everywhere.</h2>
+						<p>As Edmonton and other cities face the challenge of building infrastructure that is cost-effective, accessible, good for the environment, and good for our health and safety.</p>
+					</div>
+					
+					<div class="benefits">
+						<h2>Other membership benefits include:</h2>
+						<ul>
+							<li>Discounts at businesses and events across the city.</li>
+							<li>Discounts on shop fees at both of our community bike workshops.</li>
+							<li>Discounts on bike repair courses and other workshops.</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 
 	<!-- FOOTER -->
 
 	<footer class="footer-container">
-		 <!-- Logo -->
-		<div>
-			<img src="Images/Whitelogo.png">
-		</div>
-		 <!-- Links -->
-		<div>
-			<nav>
-                <ul>
-                    <li><a class="footer" href="index.html">Home</a></li>
-                    <li><a class="footer" href="aboutus.html">About Us</a></li>
-                    <li><a class="footer" href="ourbikes.html">Our Bikes</a></li>
-                    <li><a class="footer" href="ourworkshopsservices.html">Services</a></li>
-                    <li><a class="footer" href="#">Learn More</a></li>
-                    <li><a class="footer" href="#">Join Us</a></li>
-                    <li><a class="footer" href="#">Blog</a></li>
-                    <li><a class="footer" href="#">FAQs</a></li>
-                </ul>
-            </nav>
-		</div>
-		 <!-- Contact US -->
-		 <div>
-		 	<h6>Contact Us</h6>
-		 	<li><img src="Images/locationicon.png"> <a class="footer">10612 105 Ave NW Edmonton, AB T5H 0L2</a></li>
-		 	<li><img src="Images/emailicon.png"> <a class="footer">infor@bikeedmonton.ca</a></li>
-		 	<li><img src="Images/phoneicon.png"> <a class="footer">(780) 433-2453</a></li>
-		 	<img src="Images/contactpanelicons.png">
-		 </div>
-		  <!-- Sign Up -->
-		 <div>
-		 	<form>
-		 		<h6>Sign Up for Our Newsletter</h6>
-		 		    <label class="form-label reverse"></label>
-                    <input type="text" name="Email" class="form-field">
-                    <input type="submit" value="Submit" class="form-button">
-		 	</form>
-		 </div>
+		<div class="footer-content">
+			<!-- Logo -->
+			<div class="footer-logo">
+				<img src="Images/Whitelogo.png" alt="Bike Edmonton Logo">
+			</div>
 
+			<!-- Links -->
+			<div class="footer-links">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="ourbikes.html">Our Bikes</a></li>
+						<li><a href="ourworkshopsservices.html">Services</a></li>
+						<li><a href="#">Learn More</a></li>
+						<li><a href="#">Join Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQs</a></li>
+					</ul>
+				</nav>
+			</div>
 
+			<!-- Contact Us -->
+			<div class="footer-contact">
+				<h2>Contact Us</h2>
+				<ul>
+					<li>
+						<img src="Images/locationicon.png" alt="Location">
+						<span>10612 105 Ave NW Edmonton, AB T5H 0L2</span>
+					</li>
+					<li>
+						<img src="Images/emailicon.png" alt="Email">
+						<span>info@bikeedmonton.ca</span>
+					</li>
+					<li>
+						<img src="Images/phoneicon.png" alt="Phone">
+						<span>(780) 433-2453</span>
+					</li>
+				</ul>
+				<div class="social-icons">
+					<img src="Images/contactpanelicons.png" alt="Social Media Icons">
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<div class="footer-newsletter">
+				<h2>Sign Up for Our Newsletter</h2>
+				<form>
+					<input type="email" class="newsletter-input" placeholder="Email">
+					<button type="submit" class="newsletter-button">Submit</button>
+				</form>
+			</div>
+		</div>
 	</footer>
 
-	<script src="script.js"></script>
 </body>
 </html>
 
