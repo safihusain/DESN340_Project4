@@ -200,13 +200,13 @@ p {
 .button-filters {
       display: inline-block;
       width: 200px;
-      padding: 10px 20px; /* Adjust for size */
-      font-size: 16px; /* Adjust for text size */
-      color: black; /* Text color */
-      background-color: white; /* Background color */
-      border: 2px solid black; /* Border color and thickness */
-      border-radius: 5px; /* Adjust to match the rounded corners */
-      text-align: center; /* Center the text */
+      padding: 10px 20px;
+      font-size: 16px; 
+      color: black; 
+      background-color: white; 
+      border: 2px solid black; 
+      border-radius: 5px; 
+      text-align: center; 
 }
  
  
