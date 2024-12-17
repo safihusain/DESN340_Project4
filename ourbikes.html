@@ -19,7 +19,9 @@
 	<header> 
 		<nav class="hero-nav"> <!-- LOGO -->
 			<div class="logo logosearch">
-				<img src="Images/BlackBikeEdmontonLogo.svg">
+				<a href="index.html">
+					<img src="Images/BlackBikeEdmontonLogo.svg">
+				</a>
 				<img class="search-bar" src="Images/search-bar.png">
 			</div>
 			<input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -41,115 +43,156 @@
 				<button class="navigation button-donate">DONATE</button>
 			</div>
 			
-			<!-- HERO IMAGE -->
-		<section>
-			<div> <img src="Images/ourbikesbanner.png"></div>
-			<div>
-				<h1>As-Is Bikes For Sale</h1>
-				<h3>To see our selection of as-is bikes, please book a non-refurbished bike sale appointment at our Community Workshop.Prices and selection vary.</h3>
-				<button class="button-learnmore"> BOOK NOW </button>
-			</div>
-		</section>
+			<!-- HERO -->
+			<section class="bikes-hero">
+				<div class="bikes-hero-image">
+					<img src="Images/ourbikesbanner.png" alt="Black bike on forest trail">
+				</div>
+				<div class="bikes-hero-content">
+					<h1>As-Is Bikes For Sale</h1>
+					<p>To see our selection of as-is bikes, please book a non-refurbished bike sale appointment at our Community Workshop.</p>
+					<p>Prices and selection vary.</p>
+					<button class="button-learnmore">BOOK NOW</button>
+				</div>
+			</section>
 			
 			<!-- BIKE IMAGES -->
-
-			<div>
-				<button class="button-filters">Filters</button>
-			</div>
-			<div>
-				<div>
-					<img src="Images/Bike1.png">
-					<h3>Trek 20 <b>$75.00<b> </h3>
+			<section class="bikes-grid">
+				<div class="filters-container">
+					<button class="button-filters">Filters</button>
 				</div>
-				<div>
-					<img src="Images/Bike2.png">
-					<h3>TRaleigh Diva <b>$50.00<b> </h3>
+				<div class="bikes-container">
+					<div class="bike-card">
+						<img src="Images/Bike1.png" alt="Trek 20 bike">
+						<div class="bike-info">
+							<span class="bike-name">Trek 20</span>
+							<span class="bike-price">$75.00</span>
+						</div>
+					</div>
+					<div class="bike-card">
+						<img src="Images/Bike2.png" alt="Raleigh Diva bike">
+						<div class="bike-info">
+							<span class="bike-name">Raleigh Diva</span>
+							<span class="bike-price">$50.00</span>
+						</div>
+					</div>
+					<div class="bike-card">
+						<img src="Images/Bike3.png" alt="MTX 125 bike">
+						<div class="bike-info">
+							<span class="bike-name">MTX 125</span>
+							<span class="bike-price">$60.00</span>
+						</div>
+					</div>
+					<div class="bike-card">
+						<img src="Images/Bike4.png" alt="Apollo Mixte bike">
+						<div class="bike-info">
+							<span class="bike-name">Apollo Mixte</span>
+							<span class="bike-price">$125.00</span>
+						</div>
+					</div>
+					<div class="bike-card">
+						<img src="Images/Bike5.png" alt="CCM Pulse bike">
+						<div class="bike-info">
+							<span class="bike-name">CCM Pulse</span>
+							<span class="bike-price">$95.00</span>
+						</div>
+					</div>
+					<div class="bike-card">
+						<img src="Images/Bike6.png" alt="Apollo Sensor bike">
+						<div class="bike-info">
+							<span class="bike-name">Apollo Sensor</span>
+							<span class="bike-price">$165.00</span>
+						</div>
+					</div>
 				</div>
-				<div>
-					<img src="Images/Bike3.png">
-					<h3>MTX 125 <b>$60.00<b> </h3>
-				</div>
-				<div>
-					<img src="Images/Bike4.png">
-					<h3>Apollo Mixte <b>$125.00<b> </h3>
-				</div>
-				<div>
-					<img src="Images/Bike5.png">
-					<h3>CCM Pulse <b>$95.00<b> </h3>
-				</div>
-				<div>
-					<img src="Images/Bike6.png">
-					<h3>Apollo Sensor <b>$165.00<b> </h3>
-				</div>
-			</div>
+			</section>
 			<!-- PROJECT VS QUICK TUNED BIKE INFO -->
-		<section>
-			<div>
-				<h6>In addition to fully refurbished bikes, we also sell two types of ‘as-is’ bikes:</h6>
-				<p class="p-reverse"><b>Project Bikes</b> have not been tuned up. They range from bare frames to complete bikes, but most will need additional parts or repairs before they can be safely used.
-				<br>
-				<br>
-				<b>Quick Tuned Bikes</b> are quickly repaired to be safe and functional. They are cheaper than our fully refurbished bikes, but are not fixed up to the same high standard and may need additional work to function optimally.
-				<br>
-				<br>
-				The bikes pictured are all of the quick-tune (ready to ride) As-Is bikes that are currently available.</p>
+			<section class="bikes-info">
+				<div class="bikes-info-container">
+					<h2>In addition to fully refurbished bikes, we also sell two types of 'as-is' bikes:</h2>
+					
+					<div class="bike-type">
+						<h3>Project Bikes</h3>
+						<p>have not been tuned up. They range from bare frames to complete bikes, but most will need additional parts or repairs before they can be safely used.</p>
+					</div>
+
+					<div class="bike-type">
+						<h3>Quick Tuned Bikes</h3>
+						<p>are quickly repaired to be safe and functional. They are cheaper than our fully refurbished bikes, but are not fixed up to the same high standard and may need additional work to function optimally.</p>
+					</div>
+
+					<p class="bikes-note">The bikes pictured are all of the quick-tune (ready to ride) As-Is bikes that are currently available.</p>
+				</div>
+			</section>
+			<!-- Find As-In Bikes In Store -->
+			<section class="find-bikes">
+				<div class="find-bikes-container">
+					<h2>Find As-In Bikes In Store</h2>
+					<button class="button-learnmore">Book Now</button>
+				</div>
+			</section>
+			<section></section>
+			<section></section>
+
+		<!-- FOOTER -->
+
+		<footer class="footer-container">
+			<div class="footer-content">
+				<!-- Logo -->
+				<div class="footer-logo">
+					<img src="Images/Whitelogo.png" alt="Black Bike Edmonton Logo">
+				</div>
+
+				<!-- Links -->
+				<div class="footer-links">
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="ourbikes.html">Our Bikes</a></li>
+							<li><a href="ourworkshopsservices.html">Our Workshops & Services</a></li>
+							<li><a href="#">Learn More</a></li>
+							<li><a href="#">Join Us</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- Contact Info -->
+				<div class="footer-contact">
+					<h2>Contact Us</h2>
+					<ul>
+						<li>
+							<img src="Images/locationicon.png" alt="Location">
+							10612 105 Ave NW Edmonton, AB T5H 0L2
+						</li>
+						<li>
+							<img src="Images/emailicon.png" alt="Email">
+							info@bikeedmonton.ca
+						</li>
+						<li>
+							<img src="Images/phoneicon.png" alt="Phone">
+							(780) 433-2453
+						</li>
+					</ul>
+					<div class="social-icons">
+						<img src="Images/contactpanelicons.png" alt="Social Media Icons">
+					</div>
+				</div>
+
+				<!-- Newsletter -->
+				<div class="footer-newsletter">
+					<h2>Sign Up for Our Newsletter</h2>
+					<form>
+						<input type="email" placeholder="Enter your email" class="newsletter-input">
+						<button type="submit" class="newsletter-button">Submit</button>
+					</form>
+				</div>
 			</div>
-		</section>
-		<!-- Find As-In Bikes In Store  -->
-		<section>
-			<div>
-				<h2>Find As-In Bikes In Store </h2>
-				<button class="button-learnmore">BOOK NOW</button>
-			</div>
-		</section>
-		<section></section>
-		<section></section>
+		</footer>
 
-	<!-- FOOTER -->
-
-	<footer class="footer-container">
-		 <!-- Logo -->
-		<div>
-			<img src="Images/Whitelogo.png">
-		</div>
-		 <!-- Links -->
-		<div>
-			<nav>
-                <ul>
-                    <li><a class="footer" href="index.html">Home</a></li>
-                    <li><a class="footer" href="aboutus.html">About Us</a></li>
-                    <li><a class="footer" href="ourbikes.html">Our Bikes</a></li>
-                    <li><a class="footer" href="ourworkshopsservices.html">Services</a></li>
-                    <li><a class="footer" href="#">Learn More</a></li>
-                    <li><a class="footer" href="#">Join Us</a></li>
-                    <li><a class="footer" href="#">Blog</a></li>
-                    <li><a class="footer" href="#">FAQs</a></li>
-                </ul>
-            </nav>
-		</div>
-		 <!-- Contact US -->
-		 <div>
-		 	<h6>Contact Us</h6>
-		 	<li><img src="Images/locationicon.png"> <a class="footer">10612 105 Ave NW Edmonton, AB T5H 0L2</a></li>
-		 	<li><img src="Images/emailicon.png"> <a class="footer">infor@bikeedmonton.ca</a></li>
-		 	<li><img src="Images/phoneicon.png"> <a class="footer">(780) 433-2453</a></li>
-		 	<img src="Images/contactpanelicons.png">
-		 </div>
-		  <!-- Sign Up -->
-		 <div>
-		 	<form>
-		 		<h6>Sign Up for Our Newsletter</h6>
-		 		    <label class="form-label reverse"></label>
-                    <input type="text" name="Email" class="form-field">
-                    <input type="submit" value="Submit" class="form-button">
-		 	</form>
-		 </div>
-
-
-	</footer>
-
-	<script src="script.js"></script>
-</body>
+	</body>
 </html>
 
 
